@@ -1,0 +1,30 @@
+{
+  "name": "knxgroupgen",
+  "version": "1.0.0",
+  "description": "A tool to mass generate knx group addresses",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaiWissel/KNXGroupGEN.git"
+  },
+  "keywords": [
+    "KNX",
+    "Groupaddress",
+    "Generator"
+  ],
+  "author": "Kai Wissel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KaiWissel/KNXGroupGEN/issues"
+  },
+  "homepage": "https://github.com/KaiWissel/KNXGroupGEN#readme",
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "nodemon": "^2.0.19"
+  }
+}
